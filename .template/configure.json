@@ -1,0 +1,4 @@
+{
+    "input": "/.template/template.properties",
+    "output": "/{{theme}}-{{plt}}.properties"
+}
