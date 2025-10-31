@@ -1,4 +1,21 @@
 {
-    "input": "/.template/template.properties",
-    "output": "/{{theme}}-{{plt}}.properties"
+    "templates": {
+        "type": "mustache",
+        "input": "/.template/template.properties",
+        "output": "/{{plt.theme}}-{{plt.plt}}.properties"
+    },
+    "port": {
+        "title": "Termux",
+        "url": "https://termux.dev",
+        "version": "0.0.2"
+    },
+    "author": {
+        "name": "Crystar Z",
+        "email": "crystar.z@outlook.com"
+    },
+    "repository": {
+        "type": "git",
+        "url": "https://github.com/OneiroiTheme/termux.git"
+    },
+    "license": "MIT"
 }
